@@ -7,7 +7,7 @@ const serviceRoute = require("./router/service-router");
 const adminRoute = require("./router/admin-router");
 const connectDb = require("./utils/dbconnect");
 
-const errorMiddleware = require("../server/middlewares/error-middleware");
+const errorMiddleware = require(".server/middlewares/error-middleware");
 
 require("dotenv").config();
 
