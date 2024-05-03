@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const router = require("../server/router/auth-router");
-const contactRoute = require("../server/router/contact-router");
-const serviceRoute = require("../server/router/service-router");
-const adminRoute = require("../server/router/admin-router");
-const connectDb = require("../server/utils/dbconnect");
+const router = require(".server/router/auth-router");
+const contactRoute = require("./router/contact-router");
+const serviceRoute = require("./router/service-router");
+const adminRoute = require("./router/admin-router");
+const connectDb = require(".server/utils/dbconnect");
 
 const errorMiddleware = require("../server/middlewares/error-middleware");
 
