@@ -13,7 +13,7 @@ require("dotenv").config();
 
 // Middleware
 var corsOptions = {
-  origin: " http://localhost:5173",
+  origin: "https://novo-one-theta.vercel.app/",
   methods: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };
