@@ -5,7 +5,7 @@ const router = require(".server/router/auth-router");
 const contactRoute = require("./router/contact-router");
 const serviceRoute = require("./router/service-router");
 const adminRoute = require("./router/admin-router");
-const connectDb = require(".server/utils/dbconnect");
+const connectDb = require("./utils/dbconnect");
 
 const errorMiddleware = require("../server/middlewares/error-middleware");
 
